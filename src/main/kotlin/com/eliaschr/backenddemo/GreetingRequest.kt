@@ -1,6 +1,6 @@
 package com.eliaschr.backenddemo
 
 data class GreetingRequest (
-    val name: String,
+    var name: String,
     val message: String
 )
